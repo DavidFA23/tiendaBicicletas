@@ -1,0 +1,57 @@
+.imagen{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.texto{
+    position: absolute;
+    top: 10px;
+    left: 10px;    
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-style: oblique;
+    font-size: 90px;
+    color: #F5F5F5;
+   
+
+}
+body{
+    background-color: black;
+    
+    
+}
+h1,h2,h3{
+    background-color: #F5F5F5;
+    font-size: 30px;
+}
+
+h4>{
+    background-color: #FFFFFF;
+    font-size: 100px;
+    font-style: inherit;
+}
+p.card-text{
+    color: black;
+}
+
+form.form-row{
+    width: 50%;
+    border: 1px solid #FFFFFF;
+    margin: 20px;
+    padding:20px;
+    background-color: #FFFFFF;
+}
+
+
+footer{
+    background-color: #202026;
+    
+    text-align: center;
+    
+    color: #e0e0e8;
+    
+}
